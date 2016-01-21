@@ -36,6 +36,7 @@ h1 {
     background-color: salmon;
     color: white;
     font-weight: 200;
+    font-size: 1.25em;
     text-decoration: none;
     padding: .5em 1em;
     border-radius: 5px;
@@ -47,6 +48,7 @@ h1 {
 .btn:active,
 .btn:focus {
     background-color:#aaa;
+    cursor: pointer;
 }
 
 .btn i {
@@ -54,6 +56,10 @@ h1 {
     padding-right: 1em;
 }
 
+.grow:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 
 
