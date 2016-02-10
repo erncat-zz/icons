@@ -1,0 +1,15 @@
+html{
+    font-family: $helvetica;
+}
+
+.primary-btn{
+  @include button(#2980b9);   //⬅︎ When we use the mixin we need to give it a bg-color
+}
+
+.secondary-btn{
+  @include button(#3920b1);
+}
+
+.secondary-btn:hover {
+  @include button(green);
+}

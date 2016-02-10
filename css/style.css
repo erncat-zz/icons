@@ -1,0 +1,33 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  background: #3498db;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #fff;
+  background: #3920b1;
+}
+
+.secondary-btn:hover {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #fff;
+  background: green;
+}
